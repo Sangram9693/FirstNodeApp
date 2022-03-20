@@ -1,0 +1,24 @@
+{
+  "name": "firstnodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "postgresql"
+  ],
+  "author": "blog.almightytricks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "pg": "^8.7.3",
+    "properties-reader": "^2.2.0"
+  }
+}
