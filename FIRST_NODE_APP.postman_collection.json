@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Mark\",\r\n    \"class_no\": \"Class 2\",\r\n    \"roll_no\": 1,\r\n    \"address\": \"US\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Mark\",\r\n    \"classNo\": \"Class 2\",\r\n    \"rollNo\": 1,\r\n    \"address\": \"US\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -38,7 +38,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"John\",\r\n    \"class_no\": \"Class 2\",\r\n    \"roll_no\": 1,\r\n    \"address\": \"US\"\r\n}",
+					"raw": "{\r\n    \"name\": \"John\",\r\n    \"classNo\": \"Class 2\",\r\n    \"rollNo\": 1,\r\n    \"address\": \"US\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -46,13 +46,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/update/2",
+					"raw": "{{base_url}}/update/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"update",
-						"2"
+						"1"
 					]
 				}
 			},
@@ -81,12 +81,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/2",
+					"raw": "{{base_url}}/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"2"
+						"1"
 					]
 				}
 			},
@@ -98,12 +98,12 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/2",
+					"raw": "{{base_url}}/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"2"
+						"1"
 					]
 				}
 			},
